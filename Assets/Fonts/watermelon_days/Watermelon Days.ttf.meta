@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4a90d5ec6abcf5b44a801763aef86471
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Watermelon Days
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 884d0718099014846b226c9c6b39f4a1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
