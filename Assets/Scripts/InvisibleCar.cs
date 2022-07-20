@@ -18,7 +18,7 @@ namespace SnowManRun
 
         private void Start()
         {
-            speed = 0;
+            speed = 3;
         }
 
         private void FixedUpdate()
