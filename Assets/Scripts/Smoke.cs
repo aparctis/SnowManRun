@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Runer24
+namespace SnowManRun
 {
     public class Smoke : MonoBehaviour
     {
