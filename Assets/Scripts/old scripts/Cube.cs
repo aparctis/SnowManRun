@@ -31,6 +31,14 @@ namespace SnowManRun
         private bool deleted = false;
         private float cubeLength;
 
+        private Rigidbody rb;
+
+        private void Awake()
+        {
+            rb = GetComponent<Rigidbody>();
+            rb.constraints = RigidbodyConstraints.FreezeAll;
+        }
+
         private void Start()
         {
             startY = transform.position.y;

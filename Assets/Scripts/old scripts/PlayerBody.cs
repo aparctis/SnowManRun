@@ -16,18 +16,18 @@ namespace SnowManRun
 
         public void Jump()
         {
-            anim.SetTrigger("Jump");
-            CreateText();
+/*            anim.SetTrigger("Jump");
+            CreateText();*/
         }
 
         public void Fall()
         {
             if (isFollen == false)
             {
-                rb.constraints = RigidbodyConstraints.None;
-                rb.isKinematic = false;
+/*                rb.constraints = RigidbodyConstraints.None;
+                rb.isKinematic = false;*/
                 car.FallDown();
-                gameOverUI.SetActive(true);
+                //gameOverUI.SetActive(true);
                 isFollen = true;
             }
 
